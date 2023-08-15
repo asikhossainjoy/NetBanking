@@ -24,7 +24,10 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="admin10Panel" alignment="0" pref="1106" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="admin10Panel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -48,30 +51,35 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="addAccountSucessfullyLabel" min="-2" pref="1096" max="-2" attributes="0"/>
-                      <Component id="logoLabel" min="-2" pref="1096" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <Group type="102" attributes="0">
-                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="490" pref="490" max="-2" attributes="0"/>
-                          <Component id="bangladeshNoOneOnlineBankLabel" min="-2" pref="228" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="addAccountSucessfullyLabel" min="-2" pref="1096" max="-2" attributes="0"/>
+                              <Component id="logoLabel" min="-2" pref="1096" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <Component id="skyBankLabel" min="-2" pref="1090" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="490" pref="490" max="-2" attributes="0"/>
+                                  <Component id="bangladeshNoOneOnlineBankLabel" min="-2" pref="228" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="skyBankLabel" min="-2" pref="1090" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="330" pref="330" max="-2" attributes="0"/>
+                          <Component id="goToAdminPanelButton" min="-2" pref="469" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="closeBtnLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-              </Group>
-              <Group type="102" attributes="0">
-                  <EmptySpace min="330" pref="330" max="-2" attributes="0"/>
-                  <Component id="goToAdminPanelButton" min="-2" pref="469" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="closeBtnLabel" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

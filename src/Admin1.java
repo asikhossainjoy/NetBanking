@@ -318,7 +318,7 @@ public class Admin1 extends javax.swing.JFrame {
         adminPanelLabel.setForeground(new java.awt.Color(102, 0, 153));
         adminPanelLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         adminPanelLabel.setText("ADMIN PANEL");
-        admin1Panel.add(adminPanelLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 13, 980, -1));
+        admin1Panel.add(adminPanelLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 980, -1));
 
         searchAccountLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 18)); // NOI18N
         searchAccountLabel.setForeground(new java.awt.Color(102, 0, 153));
@@ -332,13 +332,13 @@ public class Admin1 extends javax.swing.JFrame {
                 closeBtnLabelMouseClicked(evt);
             }
         });
-        admin1Panel.add(closeBtnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 10, -1, -1));
+        admin1Panel.add(closeBtnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 10, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(admin1Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(admin1Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

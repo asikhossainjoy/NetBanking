@@ -241,7 +241,7 @@ public class Delete extends javax.swing.JFrame {
                 {
                     String password=rs1.getString("userPassword");
                     
-                    if(password.equals(password))
+                    if(password.equals(password2))
                     {
                         
                         String query="delete from createAccount1 where accountNumber = '"+accountNumber+"'";

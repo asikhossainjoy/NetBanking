@@ -551,7 +551,7 @@ public class Admin2 extends javax.swing.JFrame {
         adminPanelLabel.setForeground(new java.awt.Color(102, 0, 153));
         adminPanelLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         adminPanelLabel.setText("ADMIN PANEL");
-        admin2Panel.add(adminPanelLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 13, 970, -1));
+        admin2Panel.add(adminPanelLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 13, 990, -1));
 
         searchAccountLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 18)); // NOI18N
         searchAccountLabel.setForeground(new java.awt.Color(102, 0, 153));
@@ -565,7 +565,7 @@ public class Admin2 extends javax.swing.JFrame {
                 closeBtnLabelMouseClicked(evt);
             }
         });
-        admin2Panel.add(closeBtnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, -1, -1));
+        admin2Panel.add(closeBtnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
